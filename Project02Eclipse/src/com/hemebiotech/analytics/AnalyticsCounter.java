@@ -14,7 +14,7 @@ public class AnalyticsCounter {
 		ReadSymptomDataFromFile readSymptom = new ReadSymptomDataFromFile("symptoms.txt");
 		
 		
-		// next generate output
+		// next generate output a extraire
 		FileWriter writer = new FileWriter ("result.out");
 		for(String symptom : readSymptom.GetSymptoms()) {
 			writer.write(symptom + "\n");
